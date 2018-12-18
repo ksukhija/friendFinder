@@ -1,6 +1,7 @@
 // Dependencies
 // ===========================================================
 var express = require("express");
+var path = require("path");
 
 var app = express();
 
@@ -30,7 +31,9 @@ var characters = [{
 // Routes
 // ===========================================================
 app.get("/", function(req, res) {
-  res.send("Welcome to the Star Wars Page!");
+    var fullPath = path.join(__dirname, "app/public/home.html");
+    //console.log(fullPath);
+   res.sendFile(fullPath);
 });
 
 app.get("/:character", function(req, res) {
