@@ -1,0 +1,18 @@
+/*
+  The body covers the whole page's default settings
+*/
+
+
+
+body {
+    width:960px;
+    min-height: 100%;
+    margin-top:0;
+    margin-left:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;  
+    line-height: 1.6;
+    background-color:#0a2a66;
+    margin-bottom:40px;
+    }
+
