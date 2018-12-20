@@ -119,7 +119,7 @@ app.get("/:authenticate", function(req, res) {
   var chosen = req.params;
 
   // What does this log?
-  console.log("Got a response: params = " + chosen);
+  console.log(req);
   //console.log(req.baseUrl);
   //console.log(req.method)
   
